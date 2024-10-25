@@ -6,7 +6,7 @@ import org.hibernate.validator.constraints.NotBlank;
 
 import com.dremio.exec.store.jdbc.*;
 import com.dremio.options.OptionManager;
-import com.dremio.security.CredentialsService;
+import com.dremio.services.credentials.CredentialsService;
 import org.apache.log4j.Logger;
 import com.dremio.exec.catalog.conf.DisplayMetadata;
 import com.dremio.exec.catalog.conf.NotMetadataImpacting;
